@@ -8,3 +8,34 @@ body {
 .navbar{
     z-index: 1;
 }
+.section{
+    position:static;
+    z-index: -1;
+}
+.caption{
+    position: absolute;
+    z-index: 1;
+}
+.image-bg{
+    position: relative;
+    z-index: 1;
+}
+.caption-img{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: block;
+    width: 40%;
+
+}
+.responsive-header{
+    font-size: 3vw;
+}
+.responsive-paragraph{
+    font-size: 1.5vw;
+
+}
+/* .caption-img{
+    background-color: rgb(199, 197, 197);
+    
+} */
