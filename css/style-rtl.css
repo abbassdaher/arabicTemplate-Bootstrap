@@ -1,26 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Oswald:wght@300;500&display=swap');
 
-body {
+* {
     direction: rtl;
     font-family: 'Cairo', sans-serif;
     font-family: 'Oswald', sans-serif;
 }
-.navbar{
+
+body {
+    text-align: right;
+}
+
+.navbar {
     z-index: 1;
 }
-.section{
-    position:static;
+
+.section {
+    position: static;
     z-index: -1;
 }
-.caption{
+
+.caption {
     position: absolute;
     z-index: 1;
 }
-.image-bg{
+
+.image-bg {
     position: relative;
     z-index: 1;
 }
-.caption-img{
+
+.caption-img {
     position: absolute;
     top: 30%;
     left: 10%;
@@ -28,14 +37,27 @@ body {
     width: 40%;
 
 }
-.responsive-header{
+
+.responsive-header {
     font-size: 3vw;
 }
-.responsive-paragraph{
+
+.responsive-paragraph {
     font-size: 1.5vw;
 
 }
-/* .caption-img{
-    background-color: rgb(199, 197, 197);
-    
-} */
+
+.image-width {
+    width: 100%;
+
+}
+
+.section-title:after {
+    content: "";
+    display: block;
+    background-color: #e0a800;
+    width: 30%;
+    height: 5px;
+    border-radius: 3px;
+    margin: 10px 0px ;
+}
