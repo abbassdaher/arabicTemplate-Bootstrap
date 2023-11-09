@@ -59,9 +59,10 @@ body {
     width: 30%;
     height: 5px;
     border-radius: 3px;
-    margin: 10px 0px ;
+    margin: 10px 0px;
 }
-.news::after{
+
+.news::after {
     content: "";
     display: block;
     width: 100%;
@@ -69,4 +70,19 @@ body {
     background-color: lightgrey;
     margin-top: 3px;
     opacity: 0.6;
+}
+
+.subscribe-background {
+    content: "";
+    height: 400px;
+    background-image: url(../images/subscribe-our-newsletter-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subscribe-item {
+    top: 50%;
+    right: 50%;
+    transform:translate(50%, -50%);
+
 }
